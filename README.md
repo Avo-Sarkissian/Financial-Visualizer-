@@ -1,42 +1,51 @@
-# Financial-Visualizer-
+Financial Visualizer with User Accounts
+Financial Visualizer is an innovative software designed to simplify the analysis of personal financial data through interactive visualizations and projections. This application is developed with the goal of assisting users in managing their personal finances more effectively by providing a clear understanding of their financial standing and future trends.
 
-This project aims to develop a financial visualization software that not only simplifies the process of analyzing complex financial data but also provides users with powerful projection tools such as graphs and charts. By utilizing historical data, the software will enable users to forecast future financial trends, making it a valuable tool for people trying to keep track of their personal finances. 
-The software will begin with a user interface allowing the user to select from a list of options of how they can utilize the software. The user will also be able to input personal data of their financials, in order to budget their spending vs saving/investing. Some goals for this project are for the program to allow users to calculate loan/debt pay off time based on interest and compare if it is more effective to spend money on paying back a loan sooner vs investing into the stock market. Additionally, this project will use charts and graphs to help the user visualize and better understand their financial standing.
-	In order to use this program, the user should install the following libraries: Pandas, Numpy, and Statsmodel, which are powerful libraries that allow the program to use its expansive features. 
-	
+Features
+
+Interactive User Interface: Easy-to-use graphical interface for entering, viewing, and managing personal financial data.
+Account Management: Secure login system for users to access and manage their personal financial profiles.
+Financial Data Input: Users can input detailed financial information, including monthly income, expenses, and debt information, to accurately track their financial situation.
+Debt vs. Investment Analysis: Offers users insights into the benefits of paying off debt versus investing their money, using real-time calculations and projections.
+Visualization Tools: Utilizes matplotlib for generating graphs and charts to visualize financial comparisons and trends, making complex data understandable at a glance.
+Getting Started
+
+Prerequisites
+The software requires Python 3.6 or later, with the following libraries:
+
+tkinter for the GUI
+matplotlib for plotting graphs
+os and json for data handling and persistence
 
 
-Installing Pandas
-Pandas is an open-source data analysis and manipulation tool, built on top of the Python programming language.
+Installation
+Ensure Python 3.6 or later is installed on your system.
+Install matplotlib using pip:
 
-Open your command line interface (CLI):
-Windows: Open Command Prompt or PowerShell.
-MacOS/Linux: Open Terminal.
-Execute the following command:
-pip install pandas
-This command downloads and installs the latest version of Pandas and its dependencies.
-Installing NumPy
-NumPy is a library for the Python programming language, adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays.
+pip install matplotlib
 
-In the same CLI window, execute the following command:
+Clone or download this repository to your local machine.
 
-pip install numpy
-Just like with Pandas, this command will download and install the latest version of NumPy.
-Installing StatsModels
-StatsModels is a Python module that provides classes and functions for the estimation of many different statistical models, as well as for conducting statistical tests, and statistical data exploration. It's an excellent tool for the statistical analysis of financial data.
+Running the Application
 
-In the CLI, execute the following command:
+To start the Financial Visualizer:
 
-pip install statsmodels
-This will install StatsModels along with any missing dependencies.
-Verifying the Installation
-After installing Pandas, NumPy, and StatsModels, you can verify the installation by trying to import them in a Python interpreter session.
+Navigate to the directory containing the downloaded files.
+Run the application with Python:
 
-Open the Python interpreter by typing python in your CLI.
-Try importing the libraries with the following commands:
-python
-Copy code
-import pandas as pd
-import numpy as np
-import statsmodels.api as sm
-If you don't get any errors, the libraries are installed correctly.
+python financial_visualizer.py
+
+
+Usage
+
+Register/Login: On startup, the user is prompted to either log in or register. New users must register first.
+Entering Financial Data: After logging in, users can enter their financial data through a simple form interface.
+Analyzing Financial Data: The software allows for the analysis of paying off debts vs. investing, providing graphical outputs to illustrate potential financial outcomes.
+Saving and Loading Profiles: Users can save their financial profiles and load them later for ongoing analysis.
+Goals
+
+The primary goal of Financial Visualizer is to empower users to make informed decisions about their finances by:
+
+Providing a clear understanding of their current financial situation.
+Comparing the long-term impacts of different financial strategies.
+Offering insights into effective financial planning and management.
